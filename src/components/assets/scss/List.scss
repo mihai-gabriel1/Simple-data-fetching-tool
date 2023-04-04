@@ -1,0 +1,28 @@
+.list-header {
+  color: #f1356d;
+}
+
+.elements p:hover {
+  color: #f1356d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.element-p {
+  font-size: 1.3rem;
+}
+
+.card-title {
+  display: inline;
+  color: brown;
+}
+
+.card-title:hover {
+  cursor: pointer;
+  color: #f1356d;
+}
+
+.card-body span {
+  color: brown;
+}
+

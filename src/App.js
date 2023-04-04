@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import List from './components/List';
+import Preview from './components/Preview';
+import Navbar from './components/Navbar';
+import { useState } from 'react';
 
 function App() {
+  const [selectedCard, setSelectedCard] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App container-lg">
+        <div className="container-lg">
+          <Navbar />
+        </div>
+        <div className="row gap-5">
+          <div className="col">
+            <Preview selectedCard={selectedCard} />
+          </div>
+          <div className="col">
+            <List setSelectedCard={setSelectedCard} />
+          </div>
+        </div>
+      </div>
   );
 }
 
