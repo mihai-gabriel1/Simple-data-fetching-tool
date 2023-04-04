@@ -1,0 +1,44 @@
+[
+  {
+    "name": "John",
+    "age": 20,
+    "city": "New York",
+    "imgUrl": "https://i.pinimg.com/originals/30/93/e3/3093e388dcd7775dd44a71a6af1bd167.jpg"
+  },
+  {
+    "name": "Mike",
+    "age": 10,
+    "city": "Washington",
+    "imgUrl": "https://i.pinimg.com/originals/30/93/e3/3093e388dcd7775dd44a71a6af1bd167.jpg"
+  },
+  {
+    "name": "Andrew",
+    "age": 40,
+    "city": "Cluj",
+    "imgUrl": "https://i.pinimg.com/originals/30/93/e3/3093e388dcd7775dd44a71a6af1bd167.jpg"
+  },
+  {
+    "name": "Michael",
+    "age": 23,
+    "city": "Brasov",
+    "imgUrl": "https://i.pinimg.com/originals/30/93/e3/3093e388dcd7775dd44a71a6af1bd167.jpg"
+  },
+  {
+    "name": "Alfred",
+    "age": 35,
+    "city": "Florida",
+    "imgUrl": "https://i.pinimg.com/originals/30/93/e3/3093e388dcd7775dd44a71a6af1bd167.jpg"
+  },
+  {
+    "name": "Dean",
+    "age": 34,
+    "city": "Galati",
+    "imgUrl": "https://i.pinimg.com/originals/30/93/e3/3093e388dcd7775dd44a71a6af1bd167.jpg"
+  },
+  {
+    "name": "Jennifer",
+    "age": 23,
+    "city": "Chicago",
+    "imgUrl": "https://i.pinimg.com/originals/30/93/e3/3093e388dcd7775dd44a71a6af1bd167.jpg"
+  }
+]
